@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Mageducational_Productmod>
+             <active>true</active>
+             <codePool>local</codePool>
+             <depends>
+             </depends>
+        </Mageducational_Productmod>
+    </modules>
+</config>
