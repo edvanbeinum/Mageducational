@@ -1,13 +1,19 @@
 <?xml version="1.0"?>
 <config>
     <modules>
+        <!--// This name is a Groupled Class Name so it matched the Namespace_ModuleName format  //-->
         <Mageducational_ProductRoundel>
+            <!--// Enable this module. sert the false to turn off the module  //-->
             <active>true</active>
+            <!--// Specify which 'codePool' this module belongs to. If it only for use on your project then it would
+                    be 'local'. If it to be shared or open-sourced then use 'community' //-->
             <codePool>community</codePool>
+            <!--// Decalre other modules that this module depends on in order to function. If these modules aren't
+                    present then Magento will throw an error //-->
             <depends>
-                <Mage_Core/>
-                <Mage_Catalog/>
-                <Mage_Admin/>
+                <Mage_Core />
+                <Mage_Catalog />
+                <Mage_Admin />
             </depends>
         </Mageducational_ProductRoundel>
     </modules>

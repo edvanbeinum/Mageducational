@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Mageducational_ProductRoundel>
+             <version>0.1.0</version>
+        </Mageducational_ProductRoundel>
+    </modules>
+</config>
