@@ -1,0 +1,4 @@
+deploy.dir = /absolute/path/to/root/dir/of/your/Magento/installation
+
+# the package version
+package.version=0.1.0
