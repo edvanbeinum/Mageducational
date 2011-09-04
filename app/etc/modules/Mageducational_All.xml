@@ -3,7 +3,7 @@
     <modules>
         <Mageducational_Productmod>
              <active>true</active>
-             <codePool>local</codePool>
+             <codePool>community</codePool>
              <depends>
              </depends>
         </Mageducational_Productmod>
