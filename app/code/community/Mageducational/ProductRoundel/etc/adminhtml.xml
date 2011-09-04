@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!--// This is config section for all things related to the admin section. This will be menu modifications and
+        Access control Levels (that is, who is allowed to access what) //-->
+
+<!--// The XML file will always have a <config> root element //-->
+<config>
+    <!--// This tells MAgento that we are targeting the menu system in this node //-->
+    <menu>
+        <!--// And that in the Menu we are interested in the 'Catalog' tab. This could also be any of the other tabs
+                such as 'System' or 'Customer' //-->
+        <catalog>
+            <!--// This tells Magento to add child elements to the Catalog tab //-->
+            <children>
+                <!--// Here we could actually use any node name we want but for clarity (and convention)
+                        we use a lowercase version of the module name. The translate attribute tells Magento which
+                        child node is available for translation //-->
+                <productroundel translate="title">
+                    <!--// This is the text that will appear for this option in the Catalog dropdown menu //-->
+                    <title>Product Roundels</title>
+                    <!--// This is the URI that will be called when the user clicks on the menu option. In this case
+                            this calls the 'adminhtml' module with the 'productroundel' controller. By default the
+                            'indexAction' method will be called. //-->
+                    <action>adminhtml/productroundel</action>
+                    <!--// This sets where the option will appear in the list of other options. The lower the number the
+                            higher up in the list the option will appear //-->
+                    <sort_order>20</sort_order>
+                </productroundel>
+            </children>
+        </catalog>
+    </menu>
+</config>
