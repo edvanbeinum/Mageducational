@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Mageducational_ProductRoundel>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Mage_Core/>
+                <Mage_Catalog/>
+                <Mage_Admin/>
+            </depends>
+        </Mageducational_ProductRoundel>
+    </modules>
+</config>
