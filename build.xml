@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <project name="Mageducational" default="build" basedir=".">
     <property file="build.default.properties"/>
-    <target name="deploy">
+    <target name="build">
         <copy todir="${deploy.dir}/app" overwrite="yes" verbose="yes">
             <fileset dir="app">
                 <exclude name="**/.git"/>
